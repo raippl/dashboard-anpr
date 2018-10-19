@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    padding:10px;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    position:absolute;
+    top:10%;
+    left:2%;
+    bottom:80%;
+    width:98%;
+    height:80%;
+}
+
+#chartSubentroCanvas {
+    position:absolute;
+    top:190%;
+    left:2%;
+    width:100%; !important;
+    height:100% !important;
+}
+
+#chartPresubentroCanvas {
+    position:absolute;
+    top:90%;
+    left:2%;
+    width:100%; !important;
+    height:100% !important;
+}
+
+#table {
+    position:absolute;
+    top:290%;
+    width:100%;
+}
+
+.tabulator .tabulator-header .tabulator-col,
+.tabulator .tabulator-header .tabulator-col-row-handle {
+    white-space: normal;
+}
+
+.map-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+span {
+    font-size: 10px;
+}
+
+#menu {
+    position: absolute;
+    z-index: 1;
+    top: 11%;
+    left: 4%;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0,0,0,0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+#menu a:last-child {
+    border: none;
+}
+
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}
+
+#menu a.active {
+    background-color: #3887be;
+    color: #ffffff;
+}
+
+#menu a.active:hover {
+    background: #3074a4;
+}
